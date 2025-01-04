@@ -1,0 +1,104 @@
+name: Update Rules and Generate Config
+
+on:
+  schedule:
+    - cron: "0 0,8,16 * * *" # 每天运行三次
+  workflow_dispatch:
+  push:
+    paths:
+      - 'rule/**'
+      - 'config/**'
+
+jobs:
+  update-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install yq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+          sudo wget https://github.com/mikefarah/yq/releases/download/v4.15.1/yq_linux_amd64 -O /usr/local/bin/yq
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Download and merge rules
+        run: |
+          echo "Reading configuration from config/application.yml"
+
+          # 读取配置
+          REMOTE_RULES=$(yq e '.rules.remote[]' config/application.yml)
+          LOCAL_RULES=$(yq e '.rules.local[]' config/application.yml)
+          DIRECTORIES=$(yq e '.rules.directories[]' config/application.yml)
+          OUTPUT_PATH=$(yq e '.output.path' config/application.yml)
+          OUTPUT_FILE=$(yq e '.output.file' config/application.yml)
+
+          # 设置默认值
+          [ -z "$OUTPUT_PATH" ] && OUTPUT_PATH="output"
+          [ -z "$OUTPUT_FILE" ] && OUTPUT_FILE="knightdomain.txt"
+
+          mkdir -p "$OUTPUT_PATH"
+
+          # 临时文件
+          LOCAL_TEMP=$(mktemp)
+          DIR_TEMP=$(mktemp)
+          REMOTE_TEMP=$(mktemp)
+
+          # 处理本地规则
+          echo "Processing local rules..."
+          for local_file in $LOCAL_RULES; do
+            if [ -f "$local_file" ]; then
+              cat "$local_file" >> "$LOCAL_TEMP"
+            else
+              echo "Local rule file not found: $local_file"
+            fi
+          done
+
+          # 递归处理目录中的规则
+          echo "Processing directories for rules..."
+          for dir in $DIRECTORIES; do
+            if [ -d "$dir" ]; then
+              find "$dir" -type f -name '*.txt' -exec cat {} + >> "$DIR_TEMP"
+            else
+              echo "Directory not found: $dir"
+            fi
+          done
+
+          # 下载远程规则
+          echo "Downloading remote rules..."
+          for url in $REMOTE_RULES; do
+            curl -s "$url" >> "$REMOTE_TEMP"
+          done
+
+          # 合并内容时按顺序保留
+          echo "Merging all rules in order..."
+          {
+            echo "# Local Rules"
+            cat "$LOCAL_TEMP"
+
+            echo "# Directory Rules"
+            cat "$DIR_TEMP"
+
+            echo "# Remote Rules"
+            cat "$REMOTE_TEMP"
+          } | grep -vE '^\s*#|^\s*$' | awk '!seen[$0]++' > "$OUTPUT_PATH/$OUTPUT_FILE"
+
+          # 清理临时文件
+          rm -f "$LOCAL_TEMP" "$DIR_TEMP" "$REMOTE_TEMP"
+
+          echo "Merged rules saved to $OUTPUT_PATH/$OUTPUT_FILE"
+
+      - name: Push changes to main branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull origin main
+          git checkout main
+
+          OUTPUT_PATH=$(yq e '.output.path' config/application.yml)
+          OUTPUT_FILE=$(yq e '.output.file' config/application.yml)
+          git add "$OUTPUT_PATH/$OUTPUT_FILE"
+          git diff --cached --quiet || git commit -m "Updated $OUTPUT_FILE at $(date +'%Y-%m-%d %H:%M:%S')"
+          git push origin main
