@@ -1,0 +1,3 @@
+*.allawnos.com
+conn-service-eu-04.allawnos.com
+weather-server-kz.allawnos.com

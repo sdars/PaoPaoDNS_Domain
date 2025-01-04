@@ -1,0 +1,5 @@
+*.ugdtimg.com
+i.ugdtimg.com
+pa.ugdtimg.com
+pgdt.ugdtimg.com
+xj.ugdtimg.com

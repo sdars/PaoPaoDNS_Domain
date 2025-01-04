@@ -1,0 +1,9 @@
+*.portal101.cn
+api-device-eur.portal101.cn
+fp-it.portal101.cn
+fp-it-acc.portal101.cn
+fp-na-it.portal101.cn
+fp-na-it-acc.portal101.cn
+fp-sa-it.portal101.cn
+fp-sa-it-acc.portal101.cn
+static.portal101.cn

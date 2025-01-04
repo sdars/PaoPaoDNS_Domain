@@ -1,0 +1,12 @@
+*.gdtimg.com
+*.dmp.gdtimg.com
+adv.gdtimg.com
+dmp.gdtimg.com
+i.gdtimg.com
+imgcache.gdtimg.com
+newgdti.gdtimg.com
+pgdt.gdtimg.com
+public.gdtimg.com
+qzs.gdtimg.com
+searchbrand.gdtimg.com
+xj.gdtimg.com

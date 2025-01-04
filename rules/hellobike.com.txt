@@ -1,0 +1,15 @@
+*.hellobike.com
+coopbiz.api.hellobike.com
+grm.hellobike.com
+m.hellobike.com
+m2.hellobike.com
+madian.hellobike.com
+moment-cdn.hellobike.com
+openapi.hellobike.com
+sign.alphapay-gw-sg.hellobike.com
+sign.uat-alphapay-gw-sg.hellobike.com
+ssl.alphapay-gw-sg.hellobike.com
+ssl.uat-alphapay-gw-sg.hellobike.com
+towngame.hellobike.com
+wiki-hw.hellobike.com
+www.hellobike.com

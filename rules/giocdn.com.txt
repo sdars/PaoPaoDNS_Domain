@@ -1,0 +1,3 @@
+*.giocdn.com
+assets.giocdn.com
+statics.giocdn.com

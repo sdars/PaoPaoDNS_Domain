@@ -1,0 +1,15 @@
+*.fengkongcloud.com
+admin.fengkongcloud.com
+akamai-beta.fengkongcloud.com
+akamai-beta2.fengkongcloud.com
+api.fengkongcloud.com
+api-tianxiang-bj.fengkongcloud.com
+castatic.fengkongcloud.com
+castatic-dev.fengkongcloud.com
+fp-na-it-acc.fengkongcloud.com
+fp-sa-it.fengkongcloud.com
+static.fengkongcloud.com
+static2.fengkongcloud.com
+test.fengkongcloud.com
+testadmin.fengkongcloud.com
+www.fengkongcloud.com

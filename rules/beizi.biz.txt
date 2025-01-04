@@ -1,0 +1,6 @@
+*.beizi.biz
+images.beizi.biz
+member.beizi.biz
+style.beizi.biz
+www.beizi.biz
+youman1.beizi.biz

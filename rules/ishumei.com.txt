@@ -1,0 +1,7 @@
+*.ishumei.com
+console.ishumei.com
+mail.ishumei.com
+offline.actual.ishumei.com
+tracker.ishumei.com
+wiki.ishumei.com
+www.ishumei.com
