@@ -1,0 +1,7 @@
+*.biliapi.com
+*.grpc.biliapi.com
+b2.biliapi.com
+broadcast.chat.biliapi.com
+bvpn.biliapi.com
+fission.biliapi.com
+interface.biliapi.com
