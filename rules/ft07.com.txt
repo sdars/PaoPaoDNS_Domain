@@ -1,0 +1,14 @@
+*.ft07.com
+*.push.ft07.com
+ask.ft07.com
+doc.ft07.com
+fx.ft07.com
+memo.ft07.com
+r2.ft07.com
+sc.ft07.com
+sc3.ft07.com
+the7.ft07.com
+w.ft07.com
+wp2.ft07.com
+wplay.ft07.com
+www.ft07.com
