@@ -2408,6 +2408,7 @@ idv.urchin.netease.com
 igamegz.netease.com
 igate.netease.com
 igr.blz.netease.com
+ikeus.itnetwork.netease.com
 ikm.netease.com
 images.cache.netease.com
 images1.cache.netease.com
@@ -5958,6 +5959,7 @@ www.www.www.www.dep190.easepublish-oregon.list.inner.netease.com
 www.www.www.www.dep191.easepublish-oregon.list.inner.netease.com
 www.www.www.www.dep192.easepublish-oregon.list.inner.netease.com
 www.www.www.www.dep220.easepublish-oregon.list.inner.netease.com
+www.www.www.www.dep221.easepublish-oregon.list.inner.netease.com
 www.www.www.www.dep223.easepublish-oregon.gsf.inner.netease.com
 www.www.www.www.dep224.easepublish-oregon.gsf.inner.netease.com
 www.www.www.www.dep224.easepublish-oregon.list.inner.netease.com

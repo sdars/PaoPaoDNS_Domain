@@ -1,0 +1,8 @@
+*.beingfine.cn
+4app.beingfine.cn
+api.beingfine.cn
+img.beingfine.cn
+mini.beingfine.cn
+product.beingfine.cn
+static.beingfine.cn
+www.beingfine.cn

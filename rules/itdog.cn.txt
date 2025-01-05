@@ -1,0 +1,5 @@
+*.itdog.cn
+bug.itdog.cn
+oss.itdog.cn
+wss.itdog.cn
+www.itdog.cn
