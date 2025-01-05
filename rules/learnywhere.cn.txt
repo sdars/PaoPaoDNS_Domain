@@ -1,0 +1,4 @@
+*.learnywhere.cn
+push.learnywhere.cn
+static.learnywhere.cn
+www.learnywhere.cn

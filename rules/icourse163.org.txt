@@ -1,0 +1,8 @@
+*.icourse163.org
+*.bifrost.icourse163.org
+bifrost.icourse163.org
+clin.icourse163.org
+kaoyan.icourse163.org
+reg.icourse163.org
+reg2.icourse163.org
+www.icourse163.org

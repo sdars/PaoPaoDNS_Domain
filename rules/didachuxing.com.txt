@@ -1,0 +1,7 @@
+*.didachuxing.com
+a-m.didachuxing.com
+jumpserver.didachuxing.com
+mail.didachuxing.com
+phoebe.didachuxing.com
+sap-m6v-n-s1.didachuxing.com
+www.didachuxing.com

@@ -1,0 +1,12 @@
+*.baidustatic.com
+beidou.baidustatic.com
+besc.baidustatic.com
+cname.baidustatic.com
+cpro.baidustatic.com
+cpro2.baidustatic.com
+cproandy.baidustatic.com
+dup.baidustatic.com
+mmcmbu.baidustatic.com
+rigel.baidustatic.com
+ubmcmm.baidustatic.com
+ubmcvideo.baidustatic.com

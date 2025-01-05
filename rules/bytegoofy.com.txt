@@ -1,0 +1,12 @@
+*.bytegoofy.com
+goofyscm-file.bytegoofy.com
+lf-static-dr.bytegoofy.com
+lf1-cdn-tos.bytegoofy.com
+lf1-cdn2-tos.bytegoofy.com
+lf3-cdn-tos.bytegoofy.com
+lf3-cdn2-tos.bytegoofy.com
+lf3-short.bytegoofy.com
+lf6-cdn-tos.bytegoofy.com
+lf6-cdn2-tos.bytegoofy.com
+lf77-global-static.bytegoofy.com
+lf77-scmcdn-oversea-internal.bytegoofy.com

@@ -1,0 +1,7 @@
+*.xiaoheihe.cn
+acc.xiaoheihe.cn
+api.xiaoheihe.cn
+c.xiaoheihe.cn
+chat.xiaoheihe.cn
+workshop.xiaoheihe.cn
+www.xiaoheihe.cn

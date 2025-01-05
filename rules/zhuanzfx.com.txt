@@ -1,0 +1,4 @@
+*.d-nstool.zhuanzfx.com
+*.nstool.zhuanzfx.com
+d-nstool.zhuanzfx.com
+nstool.zhuanzfx.com

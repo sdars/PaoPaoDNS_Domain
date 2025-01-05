@@ -1,0 +1,15 @@
+*.cmpassport.com
+*.testidaas.cmpassport.com
+103.143.19.cmpassport.com
+authsafe.cmpassport.com
+econtract.cmpassport.com
+h5.cmpassport.com
+jf.cmpassport.com
+log-h5.cmpassport.com
+mc.cmpassport.com
+north.cmpassport.com
+operate.cmpassport.com
+testidaas.cmpassport.com
+wap.cmpassport.com
+www.cmpassport.com
+yzhk.cmpassport.com

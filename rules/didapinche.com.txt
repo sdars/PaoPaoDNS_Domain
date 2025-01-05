@@ -1,0 +1,11 @@
+*.didapinche.com
+cache1.didapinche.com
+git-new.didapinche.com
+img.didapinche.com
+mail.didapinche.com
+mx.didapinche.com
+slb-hb2a2.didapinche.com
+slbbj-online.didapinche.com
+static.didapinche.com
+www.didapinche.com
+www.static.didapinche.com

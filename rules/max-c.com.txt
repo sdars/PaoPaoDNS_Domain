@@ -1,0 +1,10 @@
+*.max-c.com
+cdn.max-c.com
+dl.max-c.com
+gstatic.max-c.com
+heybox.max-c.com
+i1.max-c.com
+imgheybox.max-c.com
+imgheybox1.max-c.com
+static.max-c.com
+www.max-c.com

@@ -1,0 +1,16 @@
+*.kuaishou.cn
+*.e.kuaishou.cn
+*.kspay.kuaishou.cn
+*.m.kuaishou.cn
+*.ssl.kuaishou.cn
+*.zt.kuaishou.cn
+campus.kuaishou.cn
+e.kuaishou.cn
+kspay.kuaishou.cn
+m.kuaishou.cn
+neitui.kuaishou.cn
+ssl.kuaishou.cn
+www.kuaishou.cn
+wwww.kuaishou.cn
+zhaopin.kuaishou.cn
+zt.kuaishou.cn

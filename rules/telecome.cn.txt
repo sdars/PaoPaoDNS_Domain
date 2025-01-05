@@ -1,0 +1,4 @@
+*.telecome.cn
+asdfasdf.telecome.cn
+global-auni.telecome.cn
+iuni.telecome.cn

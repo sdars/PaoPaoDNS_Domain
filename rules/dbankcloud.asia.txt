@@ -1,0 +1,5 @@
+*.dbankcloud.asia
+digixtalk.dbankcloud.asia
+grs.dbankcloud.asia
+platform.dbankcloud.asia
+www.dbankcloud.asia

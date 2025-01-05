@@ -1,0 +1,2 @@
+*.adukwai.com
+p5-ad.adukwai.com
